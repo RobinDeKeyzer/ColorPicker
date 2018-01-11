@@ -1,0 +1,39 @@
+div .colors span.color {
+  background-color: transparent;
+  display: inline-block;
+  margin: 2px 5px;
+  padding: initial;
+  position: initial; }
+  div .colors span.color .colorButton {
+    border-color: #DCDCDC;
+    border-radius: 22px;
+    height: 20px;
+    width: 20px; }
+    div .colors span.color .colorButton.active {
+      border-color: #009688; }
+    div .colors span.color .colorButton .colorButtonInner {
+      border-radius: 16px;
+      height: 14px;
+      width: 14px; }
+
+span.color {
+  background-color: #eee;
+  color: #009688;
+  cursor: pointer;
+  padding: 10px 10px 9px;
+  position: absolute;
+  right: 3px;
+  top: 22px; }
+  span.color .colorButton {
+    border: 1px solid #009688;
+    border-radius: 16px;
+    height: 14px;
+    padding: 1px;
+    width: 14px; }
+    span.color .colorButton .colorButtonInner {
+      border-radius: 11px;
+      height: 8px;
+      margin: 1px;
+      width: 8px; }
+
+/*# sourceMappingURL=colorPicker.css.map */
